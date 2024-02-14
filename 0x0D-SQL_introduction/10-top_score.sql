@@ -1,4 +1,4 @@
--- command to display srore and name in second_table on order
-select `score`,`name` from
+-- select score and name on descending order
+SELECT `score`,`name` FROM
 `second_table`
 ORDER BY `score` DESC;

@@ -1,2 +1,2 @@
--- update score of bob
-update `second_table` SET `score` = 10 where `name` = "Bob"
+-- update score of bob where name is Bob
+UPDATE `second_table` SET `score` = 10 WHERE `name` = "Bob"
